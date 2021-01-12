@@ -4,8 +4,8 @@ nb = gets.chomp.to_i
 
 nb_rjust = nb
 
-i = 0
 
-nb.times do 
+
+nb.times do |i|
     puts ("#" * (i+1)).rjust(nb_rjust)
 end
