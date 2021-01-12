@@ -4,7 +4,7 @@ print ">"
 
 Number = gets.chomp.to_i
 
-i = 0
+i = 1
 
 while i <= Number
 	puts " Salut, ça farte?"
